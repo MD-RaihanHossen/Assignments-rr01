@@ -104,3 +104,46 @@
     border-radius: 5px;
     border: none;
 }
+/* fotter section is here */
+.fotter-main-container{
+    height: 500px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotter-sub-container{
+    display: flex;
+    padding: 100px 200px ;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.fotter-future-container{
+    width: 50%;
+}
+.subscribe-title{
+    font-size: 37px;
+    margin-bottom: 5px;
+}
+.subscribe-button{
+    margin-top: 15px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    color: orangered;
+    font-weight: 700;
+}
+.future-title{
+    font-size: 37px;
+}
+.future-discripsion{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 15px;
+}
+/* fotter icons images sectiion */
+.fotter-icons-container img{
+    padding-right: 8px;
+}
