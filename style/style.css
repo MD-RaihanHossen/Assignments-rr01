@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* banner section is here */
+.navigation-container{
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    height: 680px;
+    margin-bottom: 200px;
+}
+.navigation-container{
+    top: 0;
+    right: 0;
+    
+}
+.banner-title-container{
+    font-size: 37px;
+    width: 400px;
+    height: 300px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 200px;
+    bottom: 0;
+    margin: auto;
+}
+.section-discription{
+    color: #474747;
+    font-size: 16px;
+}
+.navigation-button{
+    font-weight: 700;
+    background-color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+}
+/* My failures of previous year section is here */
+.previous-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 150px;
+}
+.previous-section-images{
+    width: ;
+}
+.previous-section-title{
+    font-size: 37px;
+}
+.previous-section-discripsiton{
+    margin: 10px 0 20px 0;
+}
+.previous-section-list li{
+    list-style: circle;
+}
+/* My Plans section is here */
+.plan-section{
+    margin: 0 200px;
+    margin-bottom: 200px;
+}
+.plan-main-container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.plan-main-container-title{
+    font-size: 37px;
+    text-align: center;
+    margin: 100px 0 80px 0;
+}
+.plan-discription{
+    color: #474747;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* bg-gradiount-section is here*/
+.gradiount-bg-image{
+    background-image:  linear-gradient(to left, rgba(255,0,0,0.1) 40%, rgba(255,0,0,0.7)),url('../images/watch.png') ;
+    height: 200px;
+    width: 1100px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+.gradient-image-title{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    top: 30px;
+    left: 30px;
+}
+.gradient-image-button{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    padding: 8px 22px;
+    border-radius: 5px;
+    border: none;
+}
